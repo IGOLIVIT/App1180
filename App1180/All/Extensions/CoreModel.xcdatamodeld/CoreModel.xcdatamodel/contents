@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="MatchModel" representedClassName="MatchModel" syncable="YES" codeGenerationType="class">
+        <attribute name="mDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="mPic1" optional="YES" attributeType="String"/>
+        <attribute name="mPic2" optional="YES" attributeType="String"/>
+        <attribute name="mPlace" optional="YES" attributeType="String"/>
+        <attribute name="mRes" optional="YES" attributeType="String"/>
+        <attribute name="mTeam1" optional="YES" attributeType="String"/>
+        <attribute name="mTeam2" optional="YES" attributeType="String"/>
+        <attribute name="mTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="PlayerModel" representedClassName="PlayerModel" syncable="YES" codeGenerationType="class">
+        <attribute name="plEx" optional="YES" attributeType="String"/>
+        <attribute name="plName" optional="YES" attributeType="String"/>
+        <attribute name="plNum" optional="YES" attributeType="String"/>
+        <attribute name="plPic" optional="YES" attributeType="String"/>
+        <attribute name="plPos" optional="YES" attributeType="String"/>
+        <attribute name="plSName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TeamModel" representedClassName="TeamModel" syncable="YES" codeGenerationType="class">
+        <attribute name="tEx" optional="YES" attributeType="String"/>
+        <attribute name="tName" optional="YES" attributeType="String"/>
+        <attribute name="tPhoto" optional="YES" attributeType="String"/>
+        <attribute name="tPlay" optional="YES" attributeType="String"/>
+        <attribute name="tVic" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TrainingModel" representedClassName="TrainingModel" syncable="YES" codeGenerationType="class">
+        <attribute name="trDay" optional="YES" attributeType="String"/>
+        <attribute name="trDescr" optional="YES" attributeType="String"/>
+        <attribute name="trFTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="trPeople" optional="YES" attributeType="String"/>
+        <attribute name="trPic" optional="YES" attributeType="String"/>
+        <attribute name="trSTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="trType" optional="YES" attributeType="String"/>
+    </entity>
+</model>
